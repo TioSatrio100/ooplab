@@ -1,0 +1,14 @@
+C:\Users\MSI\Desktop\ooplab\vendingmachine\bin\Debug\net9.0\vendingmachine.exe
+C:\Users\MSI\Desktop\ooplab\vendingmachine\bin\Debug\net9.0\vendingmachine.deps.json
+C:\Users\MSI\Desktop\ooplab\vendingmachine\bin\Debug\net9.0\vendingmachine.runtimeconfig.json
+C:\Users\MSI\Desktop\ooplab\vendingmachine\bin\Debug\net9.0\vendingmachine.dll
+C:\Users\MSI\Desktop\ooplab\vendingmachine\bin\Debug\net9.0\vendingmachine.pdb
+C:\Users\MSI\Desktop\ooplab\vendingmachine\obj\Debug\net9.0\vendingmachine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MSI\Desktop\ooplab\vendingmachine\obj\Debug\net9.0\vendingmachine.AssemblyInfoInputs.cache
+C:\Users\MSI\Desktop\ooplab\vendingmachine\obj\Debug\net9.0\vendingmachine.AssemblyInfo.cs
+C:\Users\MSI\Desktop\ooplab\vendingmachine\obj\Debug\net9.0\vendingmachine.csproj.CoreCompileInputs.cache
+C:\Users\MSI\Desktop\ooplab\vendingmachine\obj\Debug\net9.0\vendingmachine.dll
+C:\Users\MSI\Desktop\ooplab\vendingmachine\obj\Debug\net9.0\refint\vendingmachine.dll
+C:\Users\MSI\Desktop\ooplab\vendingmachine\obj\Debug\net9.0\vendingmachine.pdb
+C:\Users\MSI\Desktop\ooplab\vendingmachine\obj\Debug\net9.0\vendingmachine.genruntimeconfig.cache
+C:\Users\MSI\Desktop\ooplab\vendingmachine\obj\Debug\net9.0\ref\vendingmachine.dll
