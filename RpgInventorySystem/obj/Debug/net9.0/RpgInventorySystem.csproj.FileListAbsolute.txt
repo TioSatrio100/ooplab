@@ -1,0 +1,15 @@
+C:\Users\MSI\Desktop\ooplab\RpgInventorySystem\obj\Debug\net9.0\RpgInventorySystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MSI\Desktop\ooplab\RpgInventorySystem\obj\Debug\net9.0\RpgInventorySystem.AssemblyInfoInputs.cache
+C:\Users\MSI\Desktop\ooplab\RpgInventorySystem\obj\Debug\net9.0\RpgInventorySystem.AssemblyInfo.cs
+C:\Users\MSI\Desktop\ooplab\RpgInventorySystem\obj\Debug\net9.0\RpgInventorySystem.csproj.CoreCompileInputs.cache
+C:\Users\MSI\Desktop\ooplab\RpgInventorySystem\obj\Debug\net9.0\RpgInventorySystem.sourcelink.json
+C:\Users\MSI\Desktop\ooplab\RpgInventorySystem\bin\Debug\net9.0\RpgInventorySystem.exe
+C:\Users\MSI\Desktop\ooplab\RpgInventorySystem\bin\Debug\net9.0\RpgInventorySystem.deps.json
+C:\Users\MSI\Desktop\ooplab\RpgInventorySystem\bin\Debug\net9.0\RpgInventorySystem.runtimeconfig.json
+C:\Users\MSI\Desktop\ooplab\RpgInventorySystem\bin\Debug\net9.0\RpgInventorySystem.dll
+C:\Users\MSI\Desktop\ooplab\RpgInventorySystem\bin\Debug\net9.0\RpgInventorySystem.pdb
+C:\Users\MSI\Desktop\ooplab\RpgInventorySystem\obj\Debug\net9.0\RpgInventorySystem.dll
+C:\Users\MSI\Desktop\ooplab\RpgInventorySystem\obj\Debug\net9.0\refint\RpgInventorySystem.dll
+C:\Users\MSI\Desktop\ooplab\RpgInventorySystem\obj\Debug\net9.0\RpgInventorySystem.pdb
+C:\Users\MSI\Desktop\ooplab\RpgInventorySystem\obj\Debug\net9.0\RpgInventorySystem.genruntimeconfig.cache
+C:\Users\MSI\Desktop\ooplab\RpgInventorySystem\obj\Debug\net9.0\ref\RpgInventorySystem.dll

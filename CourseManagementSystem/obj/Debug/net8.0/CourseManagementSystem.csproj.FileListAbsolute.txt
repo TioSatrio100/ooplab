@@ -1,0 +1,5 @@
+C:\Users\MSI\Desktop\ooplab\CourseManagementSystem\obj\Debug\net8.0\CourseManagementSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MSI\Desktop\ooplab\CourseManagementSystem\obj\Debug\net8.0\CourseManagementSystem.AssemblyInfoInputs.cache
+C:\Users\MSI\Desktop\ooplab\CourseManagementSystem\obj\Debug\net8.0\CourseManagementSystem.AssemblyInfo.cs
+C:\Users\MSI\Desktop\ooplab\CourseManagementSystem\obj\Debug\net8.0\CourseManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\MSI\Desktop\ooplab\CourseManagementSystem\obj\Debug\net8.0\CourseManagementSystem.sourcelink.json

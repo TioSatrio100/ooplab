@@ -7,6 +7,7 @@ C:\Users\MSI\Desktop\ooplab\vendingmachine\obj\Debug\net9.0\vendingmachine.Gener
 C:\Users\MSI\Desktop\ooplab\vendingmachine\obj\Debug\net9.0\vendingmachine.AssemblyInfoInputs.cache
 C:\Users\MSI\Desktop\ooplab\vendingmachine\obj\Debug\net9.0\vendingmachine.AssemblyInfo.cs
 C:\Users\MSI\Desktop\ooplab\vendingmachine\obj\Debug\net9.0\vendingmachine.csproj.CoreCompileInputs.cache
+C:\Users\MSI\Desktop\ooplab\vendingmachine\obj\Debug\net9.0\vendingmachine.sourcelink.json
 C:\Users\MSI\Desktop\ooplab\vendingmachine\obj\Debug\net9.0\vendingmachine.dll
 C:\Users\MSI\Desktop\ooplab\vendingmachine\obj\Debug\net9.0\refint\vendingmachine.dll
 C:\Users\MSI\Desktop\ooplab\vendingmachine\obj\Debug\net9.0\vendingmachine.pdb

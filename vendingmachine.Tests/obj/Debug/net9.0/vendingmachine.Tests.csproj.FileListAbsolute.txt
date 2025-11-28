@@ -97,6 +97,7 @@ C:\Users\MSI\Desktop\ooplab\vendingmachine.Tests\obj\Debug\net9.0\vendingmachine
 C:\Users\MSI\Desktop\ooplab\vendingmachine.Tests\obj\Debug\net9.0\vendingmachine.Tests.AssemblyInfoInputs.cache
 C:\Users\MSI\Desktop\ooplab\vendingmachine.Tests\obj\Debug\net9.0\vendingmachine.Tests.AssemblyInfo.cs
 C:\Users\MSI\Desktop\ooplab\vendingmachine.Tests\obj\Debug\net9.0\vendingmachine.Tests.csproj.CoreCompileInputs.cache
+C:\Users\MSI\Desktop\ooplab\vendingmachine.Tests\obj\Debug\net9.0\vendingmachine.Tests.sourcelink.json
 C:\Users\MSI\Desktop\ooplab\vendingmachine.Tests\obj\Debug\net9.0\vendingm.C34438B9.Up2Date
 C:\Users\MSI\Desktop\ooplab\vendingmachine.Tests\obj\Debug\net9.0\vendingmachine.Tests.dll
 C:\Users\MSI\Desktop\ooplab\vendingmachine.Tests\obj\Debug\net9.0\refint\vendingmachine.Tests.dll
