@@ -1,4 +1,4 @@
-﻿# Vending Machine Project
+﻿# LAB OOP
 ## телеграм : riobas28
 ## ФИО :Субагио Сатрио Брахманторо Ади
 ## группу:K3240
