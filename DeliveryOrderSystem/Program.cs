@@ -13,20 +13,18 @@ namespace DeliveryOrderSystem
     {
         public static void Main(string[] args)
         {
-            // ... (Kode demo State, Strategy, Decorator, Builder yang sudah ada)
 
             StandardOrderBuilder builder = new StandardOrderBuilder();
             OrderDirector director = new OrderDirector(builder);
 
-            // --- DEMO 5: Abstract Factory Pattern ---
-            Console.WriteLine("\n--- Abstract Factory Demo ---");
+            Console.WriteLine("\n---Delivery System---");
             
             // 1. Inisialisasi Pabrik Budget
             IMenuFactory budgetFactory = new BudgetMenuFactory();
-            Console.WriteLine("[Factory] Menggunakan Budget Menu Factory.");
+            Console.WriteLine("Budget Menu");
             
-            // 2. Buat pesanan Express menggunakan item dari Budget Factory
-            // Note: Kita menggunakan director.BuildExpressOrder, yang menerima MenuItem
+            // Buat pesanan Express menggunakan item dari Budget Factory
+            // menggunakan director.BuildExpressOrder, yang menerima MenuItem
             Order budgetOrder = director.BuildExpressOrder(budgetFactory.CreateMainDish());
             
             // 3. Tambahkan item lain dari factory yang sama
@@ -39,9 +37,9 @@ namespace DeliveryOrderSystem
             }
             budgetOrder.CalculateTotalCost();
 
-            // 4. Beralih ke Pabrik Gourmet dengan mudah (tanpa mengubah kode konstruksi pesanan)
+            // Beralih ke Pabrik Gourmet dengan mudah (tanpa mengubah kode konstruksi pesanan)
             IMenuFactory gourmetFactory = new GourmetMenuFactory();
-            Console.WriteLine("[Factory] Beralih ke Gourmet Menu Factory.");
+            Console.WriteLine("Gourmet Menu");
 
             Order gourmetOrder = director.BuildExpressOrder(gourmetFactory.CreateMainDish());
             gourmetOrder.ItemsAsOrderItems.Add(gourmetFactory.CreateSideDish());
@@ -53,7 +51,6 @@ namespace DeliveryOrderSystem
             }
             gourmetOrder.CalculateTotalCost();
             
-            // ... (Lanjutkan demo State Pattern, jika ada)
         }
     }
 }

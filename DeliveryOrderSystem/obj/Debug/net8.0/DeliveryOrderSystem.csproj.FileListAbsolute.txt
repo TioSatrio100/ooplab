@@ -1,0 +1,15 @@
+/home/riobas/ooplab/DeliveryOrderSystem/obj/Debug/net8.0/DeliveryOrderSystem.GeneratedMSBuildEditorConfig.editorconfig
+/home/riobas/ooplab/DeliveryOrderSystem/obj/Debug/net8.0/DeliveryOrderSystem.AssemblyInfoInputs.cache
+/home/riobas/ooplab/DeliveryOrderSystem/obj/Debug/net8.0/DeliveryOrderSystem.AssemblyInfo.cs
+/home/riobas/ooplab/DeliveryOrderSystem/obj/Debug/net8.0/DeliveryOrderSystem.csproj.CoreCompileInputs.cache
+/home/riobas/ooplab/DeliveryOrderSystem/obj/Debug/net8.0/DeliveryOrderSystem.sourcelink.json
+/home/riobas/ooplab/DeliveryOrderSystem/bin/Debug/net8.0/DeliveryOrderSystem
+/home/riobas/ooplab/DeliveryOrderSystem/bin/Debug/net8.0/DeliveryOrderSystem.deps.json
+/home/riobas/ooplab/DeliveryOrderSystem/bin/Debug/net8.0/DeliveryOrderSystem.runtimeconfig.json
+/home/riobas/ooplab/DeliveryOrderSystem/bin/Debug/net8.0/DeliveryOrderSystem.dll
+/home/riobas/ooplab/DeliveryOrderSystem/bin/Debug/net8.0/DeliveryOrderSystem.pdb
+/home/riobas/ooplab/DeliveryOrderSystem/obj/Debug/net8.0/DeliveryOrderSystem.dll
+/home/riobas/ooplab/DeliveryOrderSystem/obj/Debug/net8.0/refint/DeliveryOrderSystem.dll
+/home/riobas/ooplab/DeliveryOrderSystem/obj/Debug/net8.0/DeliveryOrderSystem.pdb
+/home/riobas/ooplab/DeliveryOrderSystem/obj/Debug/net8.0/DeliveryOrderSystem.genruntimeconfig.cache
+/home/riobas/ooplab/DeliveryOrderSystem/obj/Debug/net8.0/ref/DeliveryOrderSystem.dll

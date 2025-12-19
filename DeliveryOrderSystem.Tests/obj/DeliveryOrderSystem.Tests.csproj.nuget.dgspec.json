@@ -1,33 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MSI\\Desktop\\ooplab\\DeliveryOrderSystem.Tests\\DeliveryOrderSystem.Tests.csproj": {}
+    "/home/riobas/ooplab/DeliveryOrderSystem.Tests/DeliveryOrderSystem.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MSI\\Desktop\\ooplab\\DeliveryOrderSystem.Tests\\DeliveryOrderSystem.Tests.csproj": {
+    "/home/riobas/ooplab/DeliveryOrderSystem.Tests/DeliveryOrderSystem.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MSI\\Desktop\\ooplab\\DeliveryOrderSystem.Tests\\DeliveryOrderSystem.Tests.csproj",
+        "projectUniqueName": "/home/riobas/ooplab/DeliveryOrderSystem.Tests/DeliveryOrderSystem.Tests.csproj",
         "projectName": "DeliveryOrderSystem.Tests",
-        "projectPath": "C:\\Users\\MSI\\Desktop\\ooplab\\DeliveryOrderSystem.Tests\\DeliveryOrderSystem.Tests.csproj",
-        "packagesPath": "C:\\Users\\MSI\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MSI\\Desktop\\ooplab\\DeliveryOrderSystem.Tests\\obj\\",
+        "projectPath": "/home/riobas/ooplab/DeliveryOrderSystem.Tests/DeliveryOrderSystem.Tests.csproj",
+        "packagesPath": "/home/riobas/.nuget/packages/",
+        "outputPath": "/home/riobas/ooplab/DeliveryOrderSystem.Tests/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\MSI\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/riobas/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net9.0"
+          "net8.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net9.0": {
-            "targetAlias": "net9.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\MSI\\Desktop\\ooplab\\DeliveryOrderSystem\\DeliveryOrderSystem.csproj": {
-                "projectPath": "C:\\Users\\MSI\\Desktop\\ooplab\\DeliveryOrderSystem\\DeliveryOrderSystem.csproj"
+              "/home/riobas/ooplab/DeliveryOrderSystem/DeliveryOrderSystem.csproj": {
+                "projectPath": "/home/riobas/ooplab/DeliveryOrderSystem/DeliveryOrderSystem.csproj"
               }
             }
           }
@@ -41,12 +41,11 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
@@ -81,31 +80,31 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.415/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\MSI\\Desktop\\ooplab\\DeliveryOrderSystem\\DeliveryOrderSystem.csproj": {
+    "/home/riobas/ooplab/DeliveryOrderSystem/DeliveryOrderSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MSI\\Desktop\\ooplab\\DeliveryOrderSystem\\DeliveryOrderSystem.csproj",
+        "projectUniqueName": "/home/riobas/ooplab/DeliveryOrderSystem/DeliveryOrderSystem.csproj",
         "projectName": "DeliveryOrderSystem",
-        "projectPath": "C:\\Users\\MSI\\Desktop\\ooplab\\DeliveryOrderSystem\\DeliveryOrderSystem.csproj",
-        "packagesPath": "C:\\Users\\MSI\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MSI\\Desktop\\ooplab\\DeliveryOrderSystem\\obj\\",
+        "projectPath": "/home/riobas/ooplab/DeliveryOrderSystem/DeliveryOrderSystem.csproj",
+        "packagesPath": "/home/riobas/.nuget/packages/",
+        "outputPath": "/home/riobas/ooplab/DeliveryOrderSystem/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\MSI\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/riobas/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net9.0"
+          "net8.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net9.0": {
-            "targetAlias": "net9.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -118,12 +117,11 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "imports": [
             "net461",
             "net462",
@@ -140,7 +138,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.415/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

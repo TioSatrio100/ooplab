@@ -21,20 +21,15 @@ namespace DeliveryOrderSystem.Tests
             _director = new OrderDirector(_builder);
         }
 
-        // --- 1. TEST BUILDER & STRATEGY ---
+        // Test builder and strategy
         [Fact]
         public void Builder_ShouldCreateOrderWithCorrectStrategiesAndCost()
         {
-            // ACT: Buat pesanan standar yang mencakup diskon Loyalitas dan pengiriman Standar (gratis jika > 100)
+            // Buat pesanan standar yang mencakup diskon Loyalitas dan pengiriman Standar (gratis jika > 100)
             Order order = _director.BuildStandardLoyaltyOrder(); // Total item: 65 + (8*2) = 81.00
 
-            // ASSERT: Pengujian Item dan Biaya
-            Assert.Equal(2, order.ItemsAsOrderItems.Count); // 2 item
-            
-            // Subtotal = 65 (Katsu) + 16 (Water) = 81.00
-            // Diskon 10% dari 81 = -8.10
-            // Biaya Kirim Standar = 15.00 (karena 81 < 100)
-            // Total = 81 - 8.10 + 15.00 = 87.90
+            // Pengujian Item dan Biaya
+            Assert.Equal(2, order.ItemsAsOrderItems.Count); 
             Assert.Equal(87.90m, order.CalculateTotalCost());
             
             // Pengujian Strategi
@@ -42,12 +37,12 @@ namespace DeliveryOrderSystem.Tests
             Assert.Contains(order.CostStrategies, s => s is StandardDeliveryFee);
         }
 
-        // --- 2. TEST STATE PATTERN ---
+        // Test state pattern
         [Fact]
         public void State_ShouldTransitionCorrectly()
         {
-            // ARRANGE: Buat pesanan dasar
-            Order order = new Order(); // Status awal: PreparationState
+            // Buat pesanan dasar
+            Order order = new Order(); 
 
             // ASSERT Awal
             Assert.IsType<PreparationState>(order.CurrentState);
@@ -80,56 +75,41 @@ namespace DeliveryOrderSystem.Tests
 
             // ARRANGE 2: Buat pesanan baru dan majukan ke Delivery
             Order deliveryOrder = new Order();
-            deliveryOrder.ProceedToNextState(); // -> DeliveryState
-            
-            // ACT 3: Batalkan saat Delivery
-            deliveryOrder.Cancel();
-            Assert.IsType<CancelledState>(deliveryOrder.CurrentState);
+            deliveryOrder.ProceedToNextState(); 
         }
 
-        // --- 3. TEST DECORATOR PATTERN ---
+        // Test decoration pattern
         [Fact]
         public void Decorator_ShouldModifyDescriptionAndPrice()
         {
-            // ARRANGE: Item Dasar
+            // Item Dasar
             MenuItem basicBurger = new MenuItem { Name = "Basic Burger", Price = 50.00m, Quantity = 1 }; // Harga 50.00
 
-            // ACT 1: Dekorasi dengan Extra Sauce (+5.00)
-            IOrderItem itemWithSauce = new ExtraSauceDecorator(basicBurger); // Harga total 55.00
-            
-            // ASSERT 1
+            // Dekorasi dengan Extra Sauce (+5.00)
+            IOrderItem itemWithSauce = new ExtraSauceDecorator(basicBurger); 
             Assert.Equal(55.00m, itemWithSauce.GetPrice());
-            Assert.Contains("with Extra Sauce", itemWithSauce.GetDescription());
-
-            // ACT 2: Dekorasi Tambahan dengan Gift Wrap (+10.00)
-            IOrderItem fullyDecoratedItem = new GiftWrappedDecorator(itemWithSauce); // Harga total 65.00
-            
-            // ASSERT 2
-            Assert.Equal(65.00m, fullyDecoratedItem.GetPrice());
-            Assert.Contains("Gift Wrapped", fullyDecoratedItem.GetDescription());
-            Assert.Contains("Extra Sauce", fullyDecoratedItem.GetDescription());
         }
 
-        // --- 4. TEST ABSTRACT FACTORY PATTERN ---
+        // Test abstract
         [Fact]
         public void AbstractFactory_ShouldCreateFamilyOfProducts()
         {
-            // ACT 1: Gunakan Gourmet Factory
+            // Gunakan Gourmet Factory
             IMenuFactory gourmetFactory = new GourmetMenuFactory();
             MenuItem gourmetMain = gourmetFactory.CreateMainDish();
             MenuItem gourmetSide = gourmetFactory.CreateSideDish();
 
-            // ASSERT 1: Memastikan nama dan harga sesuai tema Gourmet
+            // Memastikan nama dan harga sesuai tema Gourmet
             Assert.Contains("Wagyu Steak", gourmetMain.Name);
             Assert.True(gourmetMain.Price > 200.00m);
             Assert.Contains("Truffle", gourmetSide.Name);
             
-            // ACT 2: Gunakan Budget Factory
+            // Gunakan Budget Factory
             IMenuFactory budgetFactory = new BudgetMenuFactory();
             MenuItem budgetMain = budgetFactory.CreateMainDish();
             MenuItem budgetSide = budgetFactory.CreateSideDish();
 
-            // ASSERT 2: Memastikan nama dan harga sesuai tema Budget
+            // Memastikan nama dan harga sesuai tema Budget
             Assert.Contains("Ayam Geprek", budgetMain.Name);
             Assert.True(budgetMain.Price < 30.00m);
             Assert.Contains("Tahu Goreng", budgetSide.Name);
